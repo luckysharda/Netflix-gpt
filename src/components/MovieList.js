@@ -2,8 +2,6 @@ import React from "react";
 import MovieCard from "./MovieCard";
 
 const MovieList = ({ title, movies }) => {
-  console.log(movies);
-
   // Check if movies array exists and has elements
   if (!movies || movies.length === 0) {
     return (
